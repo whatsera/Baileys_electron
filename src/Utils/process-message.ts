@@ -1,4 +1,4 @@
-import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
+import { AxiosRequestConfig } from 'axios
 import type { Logger } from 'pino'
 import { proto } from '../../WAProto'
 import { AuthenticationCreds, BaileysEventEmitter, Chat, GroupMetadata, ParticipantAction, SignalKeyStoreWithTransaction, SocketConfig, WAMessageStubType } from '../Types'

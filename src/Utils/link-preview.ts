@@ -1,4 +1,4 @@
-import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
+import { AxiosRequestConfig } from 'axios
 import { Logger } from 'pino'
 import { WAMediaUploadFunction, WAUrlInfo } from '../Types'
 import { prepareWAMessageMedia } from './messages'

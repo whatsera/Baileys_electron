@@ -1,4 +1,4 @@
-import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
+import { AxiosRequestConfig } from 'axios
 import { promisify } from 'util'
 import { inflate } from 'zlib'
 import { proto } from '../../WAProto'

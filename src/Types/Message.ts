@@ -1,4 +1,4 @@
-import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
+import { AxiosRequestConfig } from 'axios
 import type { Logger } from 'pino'
 import type { Readable } from 'stream'
 import type { URL } from 'url'

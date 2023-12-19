@@ -1,5 +1,5 @@
 import { Boom } from '@hapi/boom'
-import axios, { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
+import axios, { AxiosRequestConfig } from 'axios
 import { randomBytes } from 'crypto'
 import { platform, release } from 'os'
 import { Logger } from 'pino'
