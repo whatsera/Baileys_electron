@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import axios, { AxiosRequestConfig } from 'axios'
+import axios, { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
 import { MOBILE_REGISTRATION_ENDPOINT, MOBILE_TOKEN, MOBILE_USERAGENT, REGISTRATION_PUBLIC_KEY } from '../Defaults'
 import { KeyPair, SignedKeyPair, SocketConfig } from '../Types'
 import { aesEncryptGCM, Curve, md5 } from '../Utils/crypto'

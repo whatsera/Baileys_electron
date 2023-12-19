@@ -1,5 +1,5 @@
 import { Boom } from '@hapi/boom'
-import { AxiosRequestConfig } from 'axios'
+import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
 import { exec } from 'child_process'
 import * as Crypto from 'crypto'
 import { once } from 'events'

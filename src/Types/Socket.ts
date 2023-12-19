@@ -1,5 +1,5 @@
 
-import { AxiosRequestConfig } from 'axios'
+import { AxiosRequestConfig } from 'axios/dist/node/axios.cjs'
 import type { Agent } from 'https'
 import type { Logger } from 'pino'
 import type { URL } from 'url'

@@ -1,5 +1,5 @@
 import { Boom } from '@hapi/boom'
-import axios from 'axios'
+import axios from 'axios/dist/node/axios.cjs'
 import { randomBytes } from 'crypto'
 import { promises as fs } from 'fs'
 import { Logger } from 'pino'
